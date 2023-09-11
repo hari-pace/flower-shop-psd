@@ -14,7 +14,6 @@
 }
 
 #box1 {
-    /* border: 2px solid rgb(4, 0, 255); */
     width: 100%;
     margin: auto;
     width: fit-content;
@@ -23,7 +22,6 @@
 }
 
 #box2 {
-    /* border: 2px solid rgb(255, 38, 0); */
     width: 100%;
     margin: auto;
     width: fit-content;
@@ -62,10 +60,6 @@
 #photo5 {
     width: 25em;   
     border-radius: 2.5em;
-    /* height: auto; */
-   
-    /* margin-left: 27rem;
-    padding-top: 0.9em; */
   }
 
   /* end of section 4 */
@@ -99,8 +93,6 @@
 #photo6 {
     width: 40em;   
     border-radius: 2.5em;
-    /* margin-left: 27rem;
-    padding-top: 0.9em; */
   }
 
   /* end of section 5 */
@@ -135,8 +127,6 @@
 #photo7 {
     width: 18em; 
     height: auto;
-    /* margin-left: 27rem;
-    padding-top: 0.9em; */
   }
 
   /* end of section 6 */
@@ -148,7 +138,6 @@
   /* section 7 */
 
 #video-section {
-    /* border: 2px solid red; */
     width: 100vw;
     height: 90vh; 
     background-color: #fad1cd;
@@ -159,7 +148,6 @@
 }
 
 .text {
-    /* border: 2px solid rgb(255, 230, 0); */
     font-size: 1.2em;
     line-height: 20pt;
   }
@@ -176,35 +164,26 @@
   }
 
 #photo8 {
-    /* border: 2px solid rgb(0, 238, 255); */
     width: 18em; 
     height: auto;
-    /* margin-left: 27rem;
-    padding-top: 0.9em; */
     opacity: 0.7;
     width: 100%;
   }
 
-
-
-  #video-section {
+#video-section {
     width: 100vw;
     height: 90vh;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    padding: 10px;
 }
 
 .watch-section_container {
 background-image: url("./public/8-video-flowers.png");
 background-repeat: no-repeat;
-  width: 100%;
   text-align: center;
 }
 
 #watch-button{
-  width: 6%;
+  width: 65%;
 }
 
 
