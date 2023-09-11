@@ -1,5 +1,184 @@
 /* Hari */
 
 /* Renata */
+* {
+  box-sizing: 0;
+  padding: 0;
+  margin: 0;
+}
 
+#header {
+  width: 100vw;
+  height: 90vh;
+  margin-top: 0;
+  padding-bottom: 10%;
+  padding-top: 2%;
+  background-color: #edecf1;
+}
+.navbar {
+  margin: 0 2%;
+  display: flex;
+  background-color: #404040;
+  border-radius: 50px;
+  padding: 2%;
+  font-family: "Montserrat", sans-serif;
+}
+.nav-menu {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1%;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-logo {
+  color: white;
+  list-style: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50%;
+}
+
+.hero img {
+  width: 500px;
+}
+.hero-text {
+  padding: 10%;
+  font-family: "Montserrat", sans-serif;
+  width: 40%;
+}
+.hero-text h1 {
+  font-size: 3em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-text h2 {
+  font-family: "Sacramento", cursive;
+  padding: 6% 0;
+  font-size: 2em;
+}
+
+.hero-text p {
+  padding-right: 40%;
+  font-size: 1em;
+}
+
+.hero-purchase-btn {
+  margin-top: 8%;
+  background-color: #fa8e9e;
+  padding: 2% 5%;
+  border-radius: 50px;
+  border: transparent;
+  cursor: pointer;
+}
+
+.hero-read-btn {
+  margin-top: 8%;
+  background-color: white;
+  padding: 2% 5%;
+  border-radius: 50px;
+  border: transparent;
+  cursor: pointer;
+}
+
+/* Discount banner */
+#discount {
+  background-color: #fa8e9e;
+  text-align: center;
+  padding: 3%;
+  color: white;
+}
+
+#discount h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+#discount h3 {
+  font-family: "Sacramento", cursive;
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+/* Our products section */
+
+#product {
+  width: 100vw;
+  /* height: 90vh; */
+  margin-top: 0;
+  background-color: #edecf1;
+}
+
+.prod-title {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.prod-title p {
+  padding-top: 3%;
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+.prod-category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.prod-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 250px;
+  height: 400px;
+  padding: 2%;
+}
+
+.item-btn {
+  margin-top: 8%;
+  background-color: #9ea76b;
+  color: white;
+  padding: 2% 5%;
+  border-radius: 50px;
+  border: transparent;
+  cursor: pointer;
+}
+
+/* button :hover {
+  background-color: #fa8e9e;
+} */
+
+@media only screen and (max-width: 630px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 15%;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+    padding-top: 2%;
+  }
+}
 /* Marta */
