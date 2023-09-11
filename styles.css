@@ -27,6 +27,10 @@
   height: 90vh;
 }
 
+.s8-info-heading {
+  margin-bottom: 12%;
+}
+
 .s8-info-container {
   width: 35%;
   margin-left: 25%;
@@ -53,6 +57,10 @@
   border-radius: 999px;
   padding: 2.5% 6%;
   cursor: pointer;
+}
+
+.s8-info-container button:hover {
+  background-color: black;
 }
 
 .hari-2-left {
@@ -113,6 +121,10 @@
   border: none;
   font-weight: bold;
   margin-bottom: 5%;
+}
+
+.hari-form-container button:hover {
+  background-color: #79814b;
 }
 
 .hari-section-3 {
