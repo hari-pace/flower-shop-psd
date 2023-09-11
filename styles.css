@@ -3,3 +3,211 @@
 /* Renata */
 
 /* Marta */
+
+/* section 4 */
+
+#about-us-section {
+    background-color: rgb(251, 217, 217);
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+#box1 {
+    /* border: 2px solid rgb(4, 0, 255); */
+    width: 100%;
+    margin: auto;
+    width: fit-content;
+    height: auto;
+    padding: 80px;
+}
+
+#box2 {
+    /* border: 2px solid rgb(255, 38, 0); */
+    width: 100%;
+    margin: auto;
+    width: fit-content;
+    height: auto;
+    font-family: "Montserrat";
+    font-size: 0.6em;
+    line-height: 5pt;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.headline {
+    font-family:  cursive;
+    font-size: 2.6em;
+}
+
+
+#contentHeadLine {
+    font-family: "Montserrat";
+    font-size: 8.6em;
+    line-height: 5pt;
+  }
+ 
+#readMore-button-section4 {
+    text-transform: uppercase;
+    font-size: 0.5em;
+    font-weight: bold;
+    border: 2px solid #0c0e0e;
+    color: #f5d8e9;
+    background-color: #090808;
+    border-radius: 2.5em;
+  }
+
+#photo5 {
+    width: 25em;   
+    border-radius: 2.5em;
+    /* height: auto; */
+   
+    /* margin-left: 27rem;
+    padding-top: 0.9em; */
+  }
+
+  /* end of section 4 */
+
+
+  /* section 5 */
+
+#photo-section1 {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+.text {
+    font-size: 1.2em;
+    line-height: 20pt;
+  }
+ 
+#readMore-button-section4 {
+    padding: 0.7em;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    font-weight: bold;
+    border: 2px solid #0c0e0e;
+    color: #f5d8e9;
+    background-color: #090808;
+    border-radius: 2.5em;
+  }
+
+#photo6 {
+    width: 18em; 
+    height: auto;
+    /* margin-left: 27rem;
+    padding-top: 0.9em; */
+  }
+
+  /* end of section 5 */
+
+
+
+  /* section 6 */
+
+#photo-section2 {
+    background-color: rgb(251, 217, 217);
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+.text {
+    font-size: 1.2em;
+    line-height: 20pt;
+  }
+ 
+#readMore-button-section4 {
+    padding: 0.7em;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    font-weight: bold;
+    border: 2px solid #0c0e0e;
+    color: #f5d8e9;
+    background-color: #090808;
+    border-radius: 2.5em;
+  }
+
+#photo7 {
+    width: 18em; 
+    height: auto;
+    /* margin-left: 27rem;
+    padding-top: 0.9em; */
+  }
+
+  /* end of section 6 */
+
+
+
+
+
+  /* section 7 */
+
+#video-section {
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 90vh; 
+    background-color: rgb(251, 217, 217);
+    display: flex;
+    text-align: center;
+    background-size: cover;
+    
+}
+
+.text {
+    /* border: 2px solid rgb(255, 230, 0); */
+    font-size: 1.2em;
+    line-height: 20pt;
+  }
+ 
+#readMore-button-section4 {
+    padding: 0.7em;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    font-weight: bold;
+    border: 2px solid #0c0e0e;
+    color: #f5d8e9;
+    background-color: #090808;
+    border-radius: 2.5em;
+  }
+
+#photo8 {
+    /* border: 2px solid rgb(0, 238, 255); */
+    width: 18em; 
+    height: auto;
+    /* margin-left: 27rem;
+    padding-top: 0.9em; */
+    opacity: 0.7;
+    width: 100%;
+  }
+
+
+
+  #video-section {
+    width: 100vw;
+    height: 90vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-section_container {
+background-image: url("./public/8-video-flowers.png");
+background-repeat: no-repeat;
+  width: 100%;
+  text-align: center;
+}
+
+#watch-button{
+  width: 6%;
+}
+
+
+  /* end of section 7 */
+
+
